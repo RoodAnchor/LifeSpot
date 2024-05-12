@@ -1,0 +1,70 @@
+﻿body {
+    padding-left: 11%;
+}
+
+header, footer, aside, body, .navbar, .video-container {
+    font-family: "Helvetica 65 Medium", sans-serif;
+}
+
+header, footer, body, .video-container {
+    background-color: linen;
+}
+
+header {
+    color: black;
+    padding: 1.2% 0%;
+}
+
+#header-index {
+    color: #44453f;
+}
+
+#search-input:focus {
+    outline-color: cornflowerblue;
+}
+
+aside {
+    height: 100%;
+    width: 10%;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.navbar {
+    list-style: none;
+    padding: 0;
+}
+
+.navbar li {
+    padding: 20px;
+}
+
+.navbar li:hover {
+    background-color: lightgray;
+}
+
+.navbar li:hover > a {
+    color: dimgray;
+}
+
+.navbar a {
+    color: lightgray;
+    text-decoration: none;
+}
+
+.video-container {
+    display: inline-block;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    font-size: medium;
+    color: dimgrey;
+    line-height: 66%
+}
