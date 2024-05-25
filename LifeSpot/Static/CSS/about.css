@@ -1,0 +1,12 @@
+﻿.comments {
+    margin: 10px 0px;
+    line-height: 1.5;
+}
+
+.userName{
+    font-weight: bold;
+}
+
+.date{
+    color: gray;
+}

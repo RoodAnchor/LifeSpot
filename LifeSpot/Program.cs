@@ -14,6 +14,8 @@ namespace LifeSpot
         public static void Main(string[] args)
         {
             CreateHostBuilder(args).Build().Run();
+
+            Random random = new Random();
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
