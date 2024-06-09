@@ -3,10 +3,30 @@
     line-height: 1.5;
 }
 
-.userName{
+.username{
     font-weight: bold;
 }
 
 .date{
     color: gray;
+    font-style: italic;
+}
+
+.likeButton {
+    display: flex;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+    width: 30px;
+    justify-content: center;
+}
+
+.heartIcon {
+    font-size: 20px;
+}
+
+.rate {
+    position: absolute;
+    font-size: 12px;
+    color: white;
 }
